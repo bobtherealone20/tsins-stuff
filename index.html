@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tsins Stuff</title>
     <style>
+        /* General body styling */
         body {
-            background-color: #808080; 
+            background-color: #808080; /* Grey background */
             margin: 0;
-            font-family: "Comic Sans MS", "Comic Sans", cursive;
-            color: #ffffff; 
+            font-family: "Comic Sans MS", "Comic Sans", cursive; /* Comic Sans with fallbacks */
+            color: #ffffff; /* White text */
             text-align: center;
         }
 
+        /* Header styling */
         h1 {
-            margin-top: 50px;
+            margin-top: 20px;
             font-size: 2.5rem;
             text-transform: uppercase;
         }
 
+        /* Container for content */
         .content {
             margin: 20px auto;
             padding: 20px;
@@ -27,12 +30,59 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
+
+        /* Button styling */
+        .button-container {
+            margin: 20px auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+        }
+
+        .button img {
+            width: 100px; /* Adjust size of images */
+            height: 100px;
+            object-fit: cover; /* Keeps images neat */
+            border-radius: 8px;
+        }
+
     </style>
 </head>
 <body>
+    <!-- Main Content -->
     <div class="content">
         <h1>Tsins Game Stuff or Sum</h1>
-        <p>gameing gaming </p>
+        <p>Welcome to my game stuff page! More cool content coming soon.</p>
+    </div>
+
+    <!-- Button Section -->
+    <div class="button-container">
+        <!-- Button 1 -->
+        <button class="button">
+            <img src="https://via.placeholder.com/100" alt="Button 1">
+        </button>
+
+        <!-- Button 2 -->
+        <button class="button">
+            <img src="https://via.placeholder.com/100" alt="Button 2">
+        </button>
+
+        <!-- Button 3 -->
+        <button class="button">
+            <img src="https://via.placeholder.com/100" alt="Button 3">
+        </button>
     </div>
 </body>
 </html>
