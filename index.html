@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tsins Stuff</title>
+    <title>Tsins Games and Stuff</title>
     <style>
         /* General body styling */
         body {
             background-color: #808080; /* Grey background */
             margin: 0;
-            font-family: "Comic Sans MS", "Comic Sans", cursive; /* Comic Sans with fallbacks */
-            color: #ffffff; /* White text */
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            color: #ffffff; /* White text for contrast */
             text-align: center;
         }
 
@@ -21,68 +21,42 @@
             text-transform: uppercase;
         }
 
-        /* Container for content */
-        .content {
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 600px;
-            background-color: #333333; /* Darker grey box */
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Button styling */
+        /* Button container */
         .button-container {
             margin: 20px auto;
         }
 
+        /* Button styling */
         .button {
-            display: inline-block;
-            margin: 10px;
-            border: none;
-            cursor: pointer;
+            display: block;
+            margin: 15px auto;
+            padding: 10px 20px;
+            width: 200px;
             background-color: #ffffff;
+            color: #333333;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            border: none;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: transform 0.2s;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         .button:hover {
-            transform: scale(1.1);
+            background-color: #cccccc;
+            transform: scale(1.05);
         }
-
-        .button img {
-            width: 100px; /* Adjust size of images */
-            height: 100px;
-            object-fit: cover; /* Keeps images neat */
-            border-radius: 8px;
-        }
-
     </style>
 </head>
 <body>
-    <!-- Main Content -->
-    <div class="content">
-        <h1>Tsins Game Stuff or Sum</h1>
-        <p>Welcome to my game stuff page! More cool content coming soon.</p>
-    </div>
-
-    <!-- Button Section -->
+    <h1>Tsins Games and Stuff</h1>
+    <p>Click on a button to open a file or start a game!</p>
     <div class="button-container">
-        <!-- Button 1 -->
-        <button class="button">
-            <img src="https://via.placeholder.com/100" alt="Button 1">
-        </button>
-
-        <!-- Button 2 -->
-        <button class="button">
-            <img src="https://via.placeholder.com/100" alt="Button 2">
-        </button>
-
-        <!-- Button 3 -->
-        <button class="button">
-            <img src="https://via.placeholder.com/100" alt="Button 3">
-        </button>
+        <!-- Buttons linking to file paths -->
+        <a href="games/clcarmods.html" class="button">GTA 6</a>
     </div>
 </body>
 </html>
